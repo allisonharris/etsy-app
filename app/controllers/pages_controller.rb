@@ -3,6 +3,7 @@ class PagesController < ApplicationController
 	def home
 	end
 
-	def topnav
+	def erb_demo
 	end
+	
 end
