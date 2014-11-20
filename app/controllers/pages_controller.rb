@@ -5,5 +5,8 @@ class PagesController < ApplicationController
 
 	def erb_demo
 	end
-	
+
+	def render_demo
+		render :home
+	end
 end
