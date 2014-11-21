@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'pages/erb_demo'
   get 'pages/render_demo'
+  get 'pages/redirect_demo'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
