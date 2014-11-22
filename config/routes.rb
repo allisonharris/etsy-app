@@ -15,7 +15,7 @@ Rails.application.routes.draw do
 
   get 'categories/delete'
 
-  get 'home/index'
+
 
   get 'pages/home'
   root 'pages#home'
